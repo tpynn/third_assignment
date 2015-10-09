@@ -1,0 +1,213 @@
+body{
+  width: 100%;
+  margin: 20px;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  padding: 40px;
+  margin: 0;
+  font-family:'Khula', sans-serif;;
+  color: #002C4C;
+  font-size: 16px;
+}
+a{
+text-decoration: none;
+color: blue;
+font-family:'Khula', sans-serif;
+}
+
+.headerphoto {
+  height: 400px;
+  width: 100%;
+  background-image: url('http://tahitiring.com/wp-content/uploads/2013/11/Laird-Hamilton-surfing-in-Tahiti.jpg');
+  background-position:top;
+  display: inline-block;
+}
+
+.headerphoto p{
+margin-bottom: 0;
+text-align: center;
+vertical-align: top;
+color: white;
+font-family:'Khula', sans-serif;
+font-size: 80px;
+}
+h1{
+  color: #002C4C;
+  font-size: 46px;
+  font-family:sans-serif;
+  font-weight: bold;
+  text-align: left;
+  width:140%;
+
+}
+.mainheading{
+  width: 40%;
+  text-align: left;
+  padding: 0px 0px 0px 20px;
+  display: inline-block;
+}
+.mainheading img{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.mainheading p{
+  font-size: 14px;
+  font-family:'Khula', sans-serif;
+  color: grey;
+}
+.mainheading h2{
+  color: #0085ca;
+  font-size: 25px;
+  font-family:'Khula', sans-serif;
+  font-weight: lighter;
+}
+section .img001 {
+  border-radius: 0;
+  height: 29%;
+  width: 67%;
+  float: left;
+}
+.col_2{
+margin-top: 13px;
+ width: 50%;
+ display: inline-block;
+ vertical-align: top;
+ font-family:'Khula', sans-serif;
+ text-align: center;
+}
+.col_2 img{
+border-radius: 50%;
+width: 80px;
+height: 80px;
+}
+.col_2 .paddleguy {
+  border-radius: 0%;
+  width: auto;
+  height: 400px;
+  padding-left: 40px;
+}
+.col_2 #add{
+  color: gray;
+  font-size: 14px;
+  text-decoration: underline;
+  font-family: sans-serif;
+  margin-left: 220px;
+}
+.col_2 ul li{
+  color: grey;
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+}
+footer{
+margin: 0;
+height: 90px;
+width: 100%;
+background-color: #002C4C;
+vertical-align: bottom;
+}
+footer ul li{
+  color: white;
+  font-size: 10px;
+  float: right;
+  padding:8px;
+  padding-top: 8px;
+  margin-top: 32px;
+  margin-right: 17px;
+}
+
+
+
+
+.col_3{
+border: 1px solid lightgray;
+margin-top: 50px;
+}
+.col_3 p{
+  font-size: 70px;
+  font-family:'Khula', sans-serif;
+  font-stretch: ultra-condensed;
+  font-weight: bold;
+  color: #002C4C;
+  text-align: center;
+  margin-top: 37px;
+  margin-bottom: 34px;
+}
+section, h3{
+  color: #002C4C;
+  text-align: center;
+  font-family:'Khula', sans-serif;
+  font-size: 12px;
+}
+h3{
+  margin-top: -30px;
+  font-size: 18px;
+}
+
+#about_search{
+  float:right;
+  font-weight: bold;
+  font-family:'Khula', sans-serif;
+}
+#surferimg{
+  width:20px;
+  height: auto;
+}
+/*this is the side bar second paragraph*/
+h4{
+  text-align: left;
+  color: #0085ca;
+  font-size: 20px;
+  font-family:'Khula', sans-serif;
+  font-weight: bold;
+  width: 46%;
+  margin-left: 199px;
+  margin-top: 28px;
+  margin-bottom: -17px;
+}
+#sidebarparagraph{
+  font-size:14px;
+  font-family:'Khula', sans-serif;
+  color: lightgrey;
+  width: 46%;
+  text-align: left;
+  margin-left: 199px;
+}
+.image-wrap{
+display: inline-block;
+max-width: 100%;
+position: relative;
+width:auto;
+height: auto;
+}
+.image-wrap img {
+  width: 300px;
+  height: auto;
+}
+.image-wrap .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  opacity: 100;
+  transition:opacity .5s ease;
+}
+.image-wrap:hover .overlay {
+  opacity: 0;
+}
+.blue{
+  background: rgba(0, 0, 255, 0.5);
+}
+.hover_images{
+  display: inline-block;
+
+}
